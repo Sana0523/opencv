@@ -650,7 +650,7 @@ public:
     CV_WRAP virtual void process(InputArrayOfArrays src, OutputArray dst) = 0;
 
     CV_WRAP virtual float getContrastWeight() const = 0;
-    CV_WRAP virtual void setContrastWeight(float contrast_weiht) = 0;
+    CV_WRAP virtual void setContrastWeight(float contrast_weight) = 0;
 
     CV_WRAP virtual float getSaturationWeight() const = 0;
     CV_WRAP virtual void setSaturationWeight(float saturation_weight) = 0;
